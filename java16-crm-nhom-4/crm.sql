@@ -85,5 +85,5 @@ alter table `project_user`
 INSERT INTO role(id, name, description) VALUES(1, 'ADMIN', 'Quản trị hệ thống');
 INSERT INTO role(id, name, description) VALUES(2, 'LEADER', 'Quản lý dự án');
 INSERT INTO role(id, name, description) VALUES(3, 'MEMBER', 'Thành viên');
-INSERT INTO user(id, email, password, name, address, phone, role_id) VALUES('hoan26@gmail.com', '123','Nguyễn Việt Hoàn','Ninh Bình', '0966712112',1);
-INSERT INTO user(id, email, password, name, address, phone, role_id) VALUES('hiep261@gmail.com', '12345','Phạm Bá Hiệp','Ninh Bình', '0966712334',2);
+INSERT INTO user(id, email, password, fullname, address, phone, role_id) VALUES(1,'hoan26@gmail.com', '123','Nguyễn Việt Hoàn','Ninh Bình', '0966712112',1);
+INSERT INTO user(email, password, fullname, address, phone, role_id) VALUES('hiep261@gmail.com', '12345','Phạm Bá Hiệp','Ninh Bình', '0966712334',2);
